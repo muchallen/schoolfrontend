@@ -1,0 +1,16 @@
+.search-div{
+    width: 40em;
+    
+    
+
+}
+
+.nav-div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+   
+
+
+ background-color: #F8F9FA;;
+}

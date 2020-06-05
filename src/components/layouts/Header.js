@@ -1,49 +1,46 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import './content/css/header.css'
 
 export default function Header() {
     return (
     
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <a className="navbar-brand" href>Navbar</a>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-
-  <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul className="navbar-nav mr-auto">
-      <li className="nav-item active">
-        <a className="nav-link" href>Home <span className="sr-only">(current)</span></a>
-      </li>
-
-      <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" href id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Online Learning
-        </a>
-        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href>Class Room</a>
-          <a className="dropdown-item" href>Calender</a>
-          <div className="dropdown"></div>
-          <a className="dropdown-item" href>Examination Results</a>
-        </div>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href>News</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href>Events</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href>Staff</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href>About</a>
-      </li>
-   
-      
-    </ul>
-    
+            
+  <div className="nav-div">
+  <div class="input-group mr-5 search-div mt-3 mb-3" >
+  <input type="text" class="form-control" placeholder="Search Here" aria-label="Search" />
+  <div class="input-group-append" >
+    <button className=" btn " style={{
+                    backgroundColor:"#00bfa0"
+                }}> 
+                <span className="fas fa-search mr-2" style={{
+                    color:"#ffffff"
+                }}></span>
+                    </button>
   </div>
-</nav>
+</div>
+
+<div className="div-icons-1 mr-4 mb-3">
+<span className="fas fa-bell " style={{
+                    color:"#00bfa0",
+                    fontSize:"1.5em"
+                }}></span>
+</div>
+<div className="div-icons-2 mr-4 mb-3">
+<span className="fas fa-envelope" style={{
+                    color:"#00bfa0",
+                    fontSize:"1.5em"
+                }}></span>
+</div>
+<div className="div-icons-3 mr-3 mb-3">
+<span className="fas fa-user-circle" style={{
+                    color:"#00bfa0",
+                    fontSize:"1.5em"
+                }}></span>
+</div>
+</div>
+
+
     
     )
 }

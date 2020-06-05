@@ -1,0 +1,69 @@
+.home{
+
+    
+    align-items: center;
+    margin-left: 10px;
+}
+
+.col-sciences{
+    background-color: lawngreen;
+    border: solid 0px gray;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px grey
+}
+
+.col-languages{
+    background-color: #E18335;
+    border: solid 0px gray;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px grey
+}
+
+.col-view{
+    background-color: #1B98E0;
+    border: solid 0px gray;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px grey
+}
+
+.col-pix{
+    margin: 30px;
+    box-shadow: 4px 4px 4px grey;   
+}
+
+.col-calendar{
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+
+.school-qoute{
+    width: 100%;
+    height: 10em;
+    display: flex;
+    justify-self: center;
+    align-items: flex-end;
+}
+
+.quote-pic{
+    width: 10em;
+}
+
+.quote-text{
+    color: grey; 
+    font-size: 1em;
+    text-shadow: 2px 2px 2px #00bfa0;;
+}
+
+.calendar{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.headings{
+    color: #00bfa0;;
+}

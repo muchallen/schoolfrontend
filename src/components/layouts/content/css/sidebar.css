@@ -2,3 +2,51 @@
     
     height: 100%;
 }
+
+.profile-pic{
+    height: 140px;
+    
+   
+}
+
+
+.profile-pic{
+  display: flex;  
+  flex-direction: column;
+  
+}
+
+ .logo-name{
+
+margin: auto;
+color: #00bfa0;
+text-shadow: 2px 2px 2px #000000;
+
+}
+.logo{
+    margin: auto;
+}
+
+.list-group-1 {
+    list-style-type: none;
+    
+    
+}
+.list-group-item{
+    border: none;
+    background-color: #F8F9FA;
+    
+}
+.list-group-item:hover{
+    text-decoration: none;
+    background-color: cadetblue;
+}
+
+
+.sidebar{
+    border: solid #D7D6D6 1px;
+    padding: 10px;
+    border-radius: 0px;
+ background-color: #F8F9FA;   
+    
+}

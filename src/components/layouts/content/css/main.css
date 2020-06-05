@@ -1,0 +1,50 @@
+
+
+.headings{
+    color: #00bfa0;;
+}
+
+
+.card-dash-1
+    {
+        background-image: linear-gradient(90deg, #FFA006, #FF8800);
+      }
+
+
+      .card-dash-2
+      {
+          background-image: linear-gradient(90deg, #2BB96B, #00A350);
+        }
+
+
+
+        .card-dash-3
+        {
+            background-image: linear-gradient(90deg, #FF3F3B, #FF2520);
+          }
+
+
+
+          .card-dash-4
+          {
+              background-image: linear-gradient(90deg, #00C5D9, #00B6CA);
+            }
+.card-body-details{
+    display: flex;
+    
+
+}
+
+.card-dash{
+    box-shadow: 4px 4px 4px 4px grey;
+    border: 0px grey;
+    border-radius: 25px;
+}
+
+.card-details{
+    flex: 3;
+}
+
+.card-number{
+    flex:1
+}
