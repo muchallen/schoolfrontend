@@ -11,13 +11,13 @@ class App extends Component {
           id: "basic-bar"
         },
         xaxis: {
-          categories: ["Form1", "Form2", "Form3", "Form4","Form5", "Form6"]
+          categories: ["mon", "tue", "wed", "thur", "fri"]
         }
       },
       series: [
         {
           name: "series-1",
-          data: [30, 40, 45, 50, 49, 60]
+          data: [30, 60, 45, 70, 10]
         }
       ]
     };
@@ -31,8 +31,8 @@ class App extends Component {
             <Chart
               options={this.state.options}
               series={this.state.series}
-              type="bar"
-              width="340"
+              type="line"
+              width="320"
             />
           </div>
         </div>

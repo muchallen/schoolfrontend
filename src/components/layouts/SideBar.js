@@ -38,18 +38,10 @@ export default function SideBar() {
             <div className="side-links-1 m-0 p-0">
             <ul className="list-group-1 m-0 p-0">
                 
-                <li ><Link className="text-secondary list-group-item" to="/lessons"> <span className="fas fa-school mr-2" style={{
+                <li ><Link className="text-secondary list-group-item" to="/classroom"> <span className="fas fa-school mr-2" style={{
                     color:"#00bfa0",
                     fontSize:"1.5em"
                 }}></span> Classroom</Link></li>
-                <li ><Link className="text-secondary list-group-item" to="/resources"> <span className="fas fa-book mr-2" style={{
-                    color:"#00bfa0",
-                    fontSize:"1.5em"
-                }}></span> Resources</Link></li>
-                <li ><Link className="text-secondary list-group-item" to="/chat"> <span className="fas fa-comments mr-2" style={{
-                    color:"#00bfa0",
-                    fontSize:"1.5em"
-                }}></span>Live Chat</Link></li>
                 <li ><Link className="text-secondary list-group-item" to="/settings"> <span className="fas fa-video mr-2" style={{
                     color:"#00bfa0",
                     fontSize:"1.5em"
