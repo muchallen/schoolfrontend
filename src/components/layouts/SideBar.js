@@ -42,7 +42,7 @@ export default function SideBar() {
                     color:"#00bfa0",
                     fontSize:"1.5em"
                 }}></span> Classroom</Link></li>
-                <li ><Link className="text-secondary list-group-item" to="/settings"> <span className="fas fa-video mr-2" style={{
+                <li ><Link className="text-secondary list-group-item" to="/videos"> <span className="fas fa-video mr-2" style={{
                     color:"#00bfa0",
                     fontSize:"1.5em"
                 }}></span> Videos</Link></li>
